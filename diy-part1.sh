@@ -20,7 +20,6 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #修改默认 IP为192.168.50.1
 sed -i 's/192.168.1.1/192.168.50.50/g' package/base-files/files/bin/config_generate
 
-
 # Modify default SSID
 #修改默认 SSID为RT-ACRH17
 #sed -i 's/OpenWrt/RT-ACRH17/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
