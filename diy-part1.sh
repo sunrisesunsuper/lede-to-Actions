@@ -42,3 +42,4 @@ sed -i 's/192.168.1.1/192.168.50.50/g' package/base-files/files/bin/config_gener
 #添加主题
 #git clone https://github.com/sypopo/luci-theme-atmaterial.git package/luci-theme-atmaterial
 git clone https://github.com/Leo-Jo-My/luci-theme-opentomato.git package/luci-theme-opentomato
+git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
